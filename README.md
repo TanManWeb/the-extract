@@ -10,7 +10,7 @@ Why not do it the easy way? This plugin takes a different approach. With **The E
 ```
 <?php the_extract(100, '...show me more'); ?>
 ```
-In the example above, the first 100 characters or so will be displayed and will end with ```...show me more```. The number of characters outputted can vary slightly and are approximate because the plugin will automatically crop the last sentence to the nearest word. This is to prevent cutting of words or partial words.
+In the example above, the first 100 characters or so will be displayed and will end with *...show me more*. The number of characters outputted can vary slightly and are approximate because the plugin will automatically crop the last sentence to the nearest word. This is to prevent cutting of words or partial words.
 
 ## Syntax
 ```
