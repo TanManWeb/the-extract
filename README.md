@@ -2,9 +2,9 @@
 Take control of your excerpt length. The Extract is a simple and lightweight plugin that allows you to customize the excerpt length in your WordPress theme. Instead of using ```the_excerpt()``` you use ```the_extract()``` with optional parameters.
 
 ## Why do I need this plugin?
-If you are a WordPress developer and you create custom WordPress themes, you normally use ```the_excerpt()``` to display the excerpt on your WordPress website. The default is 55 words. There are many resources on the Internet that explains how to customize the excerpt length by inserting a few lines of code into the *__functions.php__* file of your WordPress theme. 
+If you are a WordPress developer and you create custom WordPress themes, you normally use ```the_excerpt()``` in your WordPress loop to display the excerpt on your web page. The default is 55 words. There are many resources on the Internet that explains how to customize the excerpt length by inserting a few lines of code into the *__functions.php__* file of your WordPress theme. 
 
-But here is the problem. What if you want a different excerpt length for each custom post type, archive, and category? You could do it but that would require tedious programming because you would need to define the excerpt length for each post type, archive, and category in your *__functions.php__* file.
+But here is the problem. What if you want a different excerpt length for each custom post type, archive, and category? You could do it but you would need to define the excerpt length for each custom post type, archive, and category in your *__functions.php__* file. And that would be a lot of repetitive programming.
 
 Why not do it the easy way? This plugin takes a different approach. With **The Extract** plugin, you can define the length of your excerpt by simply inserting a few parameters like this:
 ```
