@@ -6,7 +6,7 @@ If you are a WordPress developer and you create custom WordPress themes, you nor
 
 But here is the problem. What if you want a different excerpt length for each custom post type, archive, and category? You could do it but that would require tedious programming because you would need to define the excerpt length for each post type, archive, and category in your *__functions.php__* file.
 
-Why not do it the easy way? This plugin takes a different approach. With The Extract plugin, you can define the length of your excerpt by simply inserting a few parameters like this:
+Why not do it the easy way? This plugin takes a different approach. With **The Extract** plugin, you can define the length of your excerpt by simply inserting a few parameters like this:
 ```
 <?php the_extract(100, '...show me more'); ?>
 ```
