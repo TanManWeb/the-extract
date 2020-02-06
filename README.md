@@ -1,8 +1,8 @@
 # The Extract
-Take control of your excerpt length. The Extract is a simple and lightweight plugin that allows you to customize the excerpt length in your WordPress theme. Instead of using *__the_excerpt()__* you use *__the_extract()__* with optional parameters.
+Take control of your excerpt length. The Extract is a simple and lightweight plugin that allows you to customize the excerpt length in your WordPress theme. Instead of using ```the_excerpt()``` you use ```the_extract()``` with optional parameters.
 
 ## Why do I need this plugin?
-If you are a WordPress developer and you create custom WordPress themes, you nornally use ```the_excerpt()``` to display the excerpt on your WordPress website. The default is 55 words. There are many resources on the Internet that explains how to customize the excerpt length by inserting a few lines of code into the ```functions.php``` file of your WordPress theme. But what if you want a different excerpt length for each custom post type, archive, and category? You could do it but that would require tedious programming because you would need to define the excerpt length for each post type, archive, and category in your *__functions.php__* file.
+If you are a WordPress developer and you create custom WordPress themes, you nornally use ```the_excerpt()``` to display the excerpt on your WordPress website. The default is 55 words. There are many resources on the Internet that explains how to customize the excerpt length by inserting a few lines of code into the *__functions.php__* file of your WordPress theme. But what if you want a different excerpt length for each custom post type, archive, and category? You could do it but that would require tedious programming because you would need to define the excerpt length for each post type, archive, and category in your *__functions.php__* file.
 
 Why not do it the easy way? This plugin takes a different approach. With The Extract plugin, you can define the length of your excerpt by simply inserting a few parameters like this:
 ```
