@@ -20,7 +20,7 @@ function the_extract( $length = 100, $ending = NULL, $hyperlink = TRUE ) {
 		if( isset($ending) && $hyperlink == TRUE ) {			
 		$ending = wp_strip_all_tags($ending);
 			if( strlen($ending) < 50 ) {	
-				echo $content . ' ' . '<a href="' . get_permalink() . '">' . $ending . '</a>';			
+				echo $content . ' ' . '<a href="' . get_permalink() . '" class="the-extract the-extract-' . get_the_ID() . '">' . $ending . '</a>';			
 			}
 		} elseif( isset($ending) && $hyperlink == FALSE ) {
 			if( strlen($ending) < 50 ) {	
@@ -49,7 +49,7 @@ function get_the_extract( $length = 100, $ending = NULL, $hyperlink = TRUE ) {
 		if( isset($ending) && $hyperlink == TRUE ) {			
 		$ending = wp_strip_all_tags($ending);
 			if( strlen($ending) < 50 ) {	
-				$extract = $content . ' ' . '<a href="' . get_permalink() . '">' . $ending . '</a>';			
+				$extract = $content . ' ' . '<a href="' . get_permalink() . '" class="the-extract the-extract-' . get_the_ID() . '">' . $ending . '</a>';			
 				return $extract;
 			}
 		} elseif( isset($ending) && $hyperlink == FALSE ) {
@@ -81,7 +81,7 @@ function get_extract( $length = 100, $ending = NULL, $hyperlink = TRUE ) { // sa
 		if( isset($ending) && $hyperlink == TRUE ) {			
 		$ending = wp_strip_all_tags($ending);
 			if( strlen($ending) < 50 ) {	
-				$extract = $content . ' ' . '<a href="' . get_permalink() . '">' . $ending . '</a>';			
+				$extract = $content . ' ' . '<a href="' . get_permalink() . '" class="the-extract the-extract-' . get_the_ID() . '">' . $ending . '</a>';			
 				return $extract;
 			}
 		} elseif( isset($ending) && $hyperlink == FALSE ) {
